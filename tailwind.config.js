@@ -1,9 +1,10 @@
 module.exports = {
   content: [
-    './layout/**/*.liquid',
-    './templates/**/*.liquid',
-    './sections/**/*.liquid',
-    './snippets/**/*.liquid',
+    './layout/*.liquid',
+    './templates/customers/*.liquid',
+    './templates/*.liquid',
+    './sections/*.liquid',
+    './snippets/*.liquid',
   ],
   theme: {
     extend: {},

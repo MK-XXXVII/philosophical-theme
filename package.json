@@ -1,8 +1,15 @@
 {
-  "dependencies": {
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/tailwind.css -o ./assets/application.css"
+  },
+  "name": "philosophical-theme",
+  "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain)\r [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/.github/CONTRIBUTING.md)",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {
     "tailwindcss": "^3.3.2"
   },
-  "scripts": {
-    "build:css": "tailwindcss -i ./assets/main.css -o ./assets/output.css"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
